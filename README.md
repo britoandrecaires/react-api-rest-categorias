@@ -15,6 +15,23 @@ Este projeto é uma aplicação web desenvolvida em React que consome uma API RE
 - JavaScript (ES6+)
 - Fetch API
 
+## Backend 
+
+Este frontend React consome uma API REST desenvolvida em PHP.
+
+Repositório da API:
+https://github.com/britoandrecaires/php-api-export-csv
+
+
+## Comunicação
+
+- React (Frontend) → Fetch API
+- PHP (Backend) → MySQL
+- Endpoint usado:
+  - GET /categorias/listar.php
+  - GET /categorias/exportar_CSV.php
+
+
 ## Como Executar o Projeto
 
 1. **Clone o repositório:**
